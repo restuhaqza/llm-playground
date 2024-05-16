@@ -20,3 +20,26 @@ A curated my research and exploration to understanding about Large Language Mode
     ```bash
     pip install langchain-ai
     ```
+
+## Getting Started
+1. Create python virtual environment
+    ```
+    python -m venv venv
+    ```
+    It would be generated your sandbox python SDK inside on `venv` directory
+2. Activate the python virtual environment
+    ```
+    source ./venv/bin/activate
+    ```
+    Then verify your python binaries
+    ```bash
+    which python
+    # it should be on `./venv/bin/python`
+
+    python --version
+    # Python 3.11.5
+    ```
+3. Install the require dependency / library
+    ```
+    pip install -r requirements.txt
+    ```
